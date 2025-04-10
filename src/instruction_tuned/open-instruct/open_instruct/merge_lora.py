@@ -46,7 +46,7 @@ def parse_args():
     parser.add_argument("--lora_model_name_or_path", type=str, required=True)
     parser.add_argument("--base_model_name_or_path", type=str, required=False)
     parser.add_argument("--tokenizer_name_or_path", type=str, required=False)
-    parser.add_argument("--output_dir", type=str, required=False)
+    parser.add_argument("--lora_output_dir", type=str, required=False)
     parser.add_argument("--qlora", action="store_true")  # qlora requires special treatment.
     parser.add_argument("--save_tokenizer", action="store_true")
     parser.add_argument("--use_fast_tokenizer", action="store_true")
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     embedding_size = base_model.get_input_embeddings().weight.shape[0]
     
-    output_dir = args.output_dir if args.output_dir else args.lora_model_name_or_path
+    output_dir = args.lora_output_dir if args.lora_output_dir else args.lora_model_name_or_path
     os.makedirs(output_dir, exist_ok=True)
     
     if args.folder_provided:    

@@ -91,9 +91,9 @@ def main(args):
     dataset_path = os.path.join(args.output_dir, dataset_name, model_name)
     print(dataset_path)
     os.makedirs(dataset_path, exist_ok=True)
-    #os.makedirs(f'{args.output_dir}/{dataset_name}/{model_name}', exist_ok=True)
+
     df.to_csv(f'{dataset_path}/zero_shot.csv', sep='\t', index=None)
-    #print(f'{args.output_dir}/{dataset_name}/{model_name}/zero_shot.csv')
+
 
     
 
