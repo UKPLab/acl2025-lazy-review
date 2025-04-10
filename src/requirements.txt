@@ -1,0 +1,300 @@
+absl-py==2.0.0
+accelerate==1.2.1
+ai2-olmo==0.3.0
+aiohttp @ file:///croot/aiohttp_1694181079612/work
+aiolimiter==1.1.0
+aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+alabaster==1.0.0
+annotated-types==0.6.0
+antlr4-python3-runtime==4.9.3
+anyio==3.7.1
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+async-lru==2.0.4
+async-timeout @ file:///opt/conda/conda-bld/async-timeout_1664876359750/work
+attrs @ file:///croot/attrs_1695717823297/work
+autoawq==0.2.5
+autoawq_kernels==0.0.6
+Babel==2.15.0
+beautifulsoup4==4.12.2
+bert-score==0.3.13
+bitsandbytes==0.41.2.post2
+blake3==1.0.4
+bleach==6.1.0
+boto3==1.34.110
+botocore==1.34.110
+Bottleneck @ file:///opt/conda/conda-bld/bottleneck_1657175564434/work
+Brotli @ file:///tmp/abs_ecyw11_7ze/croots/recipe/brotli-split_1659616059936/work
+cached_path==1.6.2
+cachetools==5.3.3
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1700303426725/work/certifi
+cffi @ file:///croot/cffi_1700254295673/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+cloudpickle==3.0.0
+cmake==3.29.3
+colorama==0.4.6
+comm==0.2.2
+contourpy==1.2.1
+cryptography @ file:///croot/cryptography_1694444244250/work
+cycler==0.12.1
+Cython==3.0.12
+datasets==3.2.0
+debugpy==1.8.1
+decorator==5.1.1
+deepspeed==0.14.4
+defusedxml==0.7.1
+dill @ file:///croot/dill_1692271232022/work
+diskcache==5.6.3
+distro==1.8.0
+dnspython==2.6.1
+docutils==0.21.2
+einops==0.8.0
+email_validator==2.1.1
+evaluate==0.4.1
+exceptiongroup==1.2.0
+executing==2.0.1
+faiss-gpu==1.7.2
+fastapi==0.115.8
+fastapi-cli==0.0.4
+fastchat==0.1.0
+fastjsonschema==2.19.1
+filelock @ file:///croot/filelock_1700591183607/work
+flash-attn==2.5.8
+fonttools==4.51.0
+fqdn==1.5.1
+frozenlist @ file:///croot/frozenlist_1698702560391/work
+fsspec @ file:///croot/fsspec_1695734500336/work
+gguf==0.9.1
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455533097/work
+google==3.0.0
+google-api-core==2.19.0
+google-auth==2.29.0
+google-cloud-core==2.4.1
+google-cloud-storage==2.16.0
+google-crc32c==1.5.0
+google-resumable-media==2.7.0
+googleapis-common-protos==1.63.0
+h11==0.14.0
+hjson==3.1.0
+httpcore==1.0.2
+httptools==0.6.1
+httpx==0.25.2
+huggingface-hub==0.27.0
+idna @ file:///croot/idna_1666125576474/work
+imagesize==1.4.1
+importlib_metadata==8.0.0
+indic_nlp_library_IT2 @ git+https://github.com/VarunGumma/indic_nlp_library.git@342a7e95735e88949528bdca371518cb0ba5bb5d
+-e git+https://github.com/VarunGumma/IndicTransToolkit@9ca9208435d2d24514b592286e89eb115483d2fb#egg=IndicTransToolkit
+interegular==0.3.3
+ipykernel==6.29.4
+ipython==8.24.0
+ipywidgets==8.1.2
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2 @ file:///croot/jinja2_1666908132255/work
+jiter==0.8.2
+jmespath==1.0.1
+joblib @ file:///croot/joblib_1685113087166/work
+json5==0.9.25
+jsonpointer==2.4
+jsonschema==4.22.0
+jsonschema-specifications==2023.12.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.10.0
+jupyter-lsp==2.2.5
+jupyter_client==8.6.1
+jupyter_core==5.7.2
+jupyter_server==2.14.0
+jupyter_server_terminals==0.5.3
+jupyterlab==4.2.0
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.27.1
+jupyterlab_widgets==3.0.10
+kiwisolver==1.4.5
+lark==1.1.9
+litellm==1.41.23
+llvmlite==0.42.0
+lm-format-enforcer==0.10.6
+lxml==5.3.1
+markdown-it-py==3.0.0
+MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
+matplotlib==3.8.4
+matplotlib-inline==0.1.7
+mdurl==0.1.2
+mistral_common==1.5.3
+mistune==3.0.2
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+Morfessor==2.0.6
+mpmath @ file:///croot/mpmath_1690848262763/work
+msgpack==1.0.8
+msgspec==0.19.0
+multidict @ file:///croot/multidict_1665674239670/work
+multiprocess @ file:///croot/multiprocess_1692294385131/work
+nbclient==0.10.0
+nbconvert==7.16.4
+nbformat==5.10.4
+nest-asyncio==1.6.0
+networkx @ file:///croot/networkx_1690561992265/work
+ninja==1.11.1.1
+nltk==3.8.1
+notebook==7.2.0
+notebook_shim==0.2.4
+numba==0.59.1
+numexpr @ file:///croot/numexpr_1696515281613/work
+numpy @ file:///croot/numpy_and_numpy_base_1695830428084/work/dist/numpy-1.26.0-cp310-cp310-linux_x86_64.whl#sha256=fc2732718bc9e06a7b702492cb4f5afffe9671083930452d894377bf563464a3
+nvidia-cublas-cu11==11.11.3.6
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu11==11.8.87
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu11==11.8.89
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu11==11.8.89
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu11==9.1.0.70
+nvidia-cudnn-cu12==8.9.2.26
+nvidia-cufft-cu11==10.9.0.58
+nvidia-cufft-cu12==11.0.2.54
+nvidia-curand-cu11==10.3.0.86
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu11==11.4.1.48
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu11==11.7.5.86
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-ml-py==12.550.52
+nvidia-nccl-cu11==2.20.5
+nvidia-nccl-cu12==2.20.5
+nvidia-nvjitlink-cu12==12.4.127
+nvidia-nvtx-cu11==11.8.86
+nvidia-nvtx-cu12==12.1.105
+omegaconf==2.3.0
+openai==1.63.2
+openicl==0.1.8
+orjson==3.10.3
+outlines==0.0.46
+overrides==7.7.0
+packaging @ file:///croot/packaging_1693575174725/work
+pandas==2.2.3
+pandocfilters==1.5.1
+parso==0.8.4
+partial-json-parser==0.2.1.1.post5
+peft==0.11.1
+pexpect==4.9.0
+pillow==11.1.0
+platformdirs==4.2.2
+portalocker==3.1.1
+prometheus-eval==0.1.17
+prometheus-fastapi-instrumentator==7.0.0
+prometheus_client==0.20.0
+prompt-toolkit==3.0.43
+proto-plus==1.23.0
+protobuf==4.25.1
+psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py-cpuinfo==9.0.0
+pyairports==2.1.1
+pyarrow==18.1.0
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pycountry==24.6.1
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.10.6
+pydantic_core==2.27.2
+Pygments==2.18.0
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.1.2
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==1.0.1
+python-json-logger==2.0.7
+python-multipart==0.0.9
+pytz @ file:///croot/pytz_1695131579487/work
+PyYAML @ file:///croot/pyyaml_1698096049011/work
+pyzmq==26.0.3
+qtconsole==5.5.2
+QtPy==2.4.1
+rank-bm25==0.2.2
+ray==2.22.0
+referencing==0.35.1
+regex @ file:///croot/regex_1696515298636/work
+requests==2.32.3
+responses==0.18.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rich==13.7.1
+rouge-score==0.1.2
+rpds-py==0.18.1
+rsa==4.9
+s3transfer==0.10.1
+sacrebleu==2.5.1
+sacremoses==0.1.1
+safetensors==0.4.3
+scikit-learn @ file:///croot/scikit-learn_1690978916802/work
+scipy @ file:///croot/scipy_1696543286448/work/dist/scipy-1.11.3-cp310-cp310-linux_x86_64.whl#sha256=16a8c87e543daeb96d1310b2283f542fef2de84ee7090f60187eb71f71cb430c
+Send2Trash==1.8.3
+sentence-transformers==2.2.2
+sentencepiece==0.2.0
+shellingham==1.5.4
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio==1.3.0
+snowballstemmer==2.2.0
+soupsieve==2.5
+Sphinx==8.1.3
+sphinx-argparse==0.5.2
+sphinx-rtd-theme==3.0.2
+sphinxcontrib-applehelp==2.0.0
+sphinxcontrib-devhelp==2.0.0
+sphinxcontrib-htmlhelp==2.1.0
+sphinxcontrib-jquery==4.1
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==2.0.0
+sphinxcontrib-serializinghtml==2.0.0
+stack-data==0.6.3
+starlette==0.45.3
+sympy @ file:///croot/sympy_1668202399572/work
+tabulate==0.9.0
+terminado==0.18.1
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+tiktoken==0.9.0
+tinycss2==1.3.0
+tokenizers==0.21.0
+tomli==2.0.1
+torch==2.4.0+cu118
+torchaudio==2.1.1
+torchvision==0.19.0+cu118
+tornado==6.4
+tqdm==4.67.1
+traitlets==5.14.3
+transformers==4.47.1
+transformers-stream-generator==0.0.5
+triton==3.0.0
+trl==0.13.0
+typer==0.12.3
+types-python-dateutil==2.9.0.20240316
+typing_extensions==4.12.2
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+ujson==5.10.0
+uri-template==1.3.0
+urllib3 @ file:///croot/urllib3_1698257533958/work
+uvicorn==0.29.0
+uvloop==0.19.0
+vllm @ https://github.com/vllm-project/vllm/releases/download/v0.6.1.post1/vllm-0.6.1.post1+cu118-cp310-cp310-manylinux1_x86_64.whl#sha256=f3f4e52442b8b358d84da3afcad2177b93cb437b0d960ed33ea3fb9b8d95bfc8
+vllm-nccl-cu12==2.18.1.0.4.0
+watchfiles==0.21.0
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.8.0
+websockets==12.0
+widgetsnbextension==4.0.10
+xformers==0.0.27.post2+cu118
+xxhash @ file:///croot/python-xxhash_1667919521615/work
+yarl @ file:///opt/conda/conda-bld/yarl_1661437085904/work
+zipp @ file:///croot/zipp_1672387121353/work
+zstandard==0.22.0
