@@ -158,7 +158,7 @@ done
 ```bib
 @article{tbd,
   title = {LazyReview: A Datset for uncovering lazy thinking in Peer Reviews},
-  author = {Purkayastha, Sukannya and Li, Zhaung and Lauscher, Anne and Qu, Lizhen  and Gurevych, Iryna},
+  author = {Purkayastha, Sukannya and Li, Zhaung and Lauscher, Anne and Qu, Lizhen and Gurevych, Iryna},
   year = 2025,
   month = apr,
   journal = {arXiv preprint},
