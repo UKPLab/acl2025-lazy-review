@@ -1,4 +1,13 @@
 ## Dataset Details ##
+The ```.csv``` files will have the following fields:
+```CSV
+"id" : ID of the instance
+"title" : Title of the paper
+"review" : Review of that paper
+"weakness" : identified problematic segment of the review.
+"mapping" : The class of lazy thinking for the "weakness".
+```
+
 The ```.json``` files that are downloaded will essential have the same format as shown below:
 
 ```JSON
