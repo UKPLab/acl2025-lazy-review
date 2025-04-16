@@ -1,7 +1,7 @@
 # LazyReview: A Dataset for Uncovering Lazy Thinking in NLP Peer Reviews
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.10-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-2504.00019-b31b1b.svg)](https://arxiv.org/abs/2504.00019)
+[![arXiv](https://img.shields.io/badge/arXiv-2504.11042-b31b1b.svg)](https://arxiv.org/abs/2504.11042)
 >  **Abstract**
 >
 > Peer review is a cornerstone of quality control in scientific publishing. With the increasing workload, the unintended use of `quick' heuristics, referred to as *lazy thinking*, has emerged as a recurring issue compromising review quality. Automated methods to detect such heuristics can help improve the peer-reviewing process. However, there is limited NLP research on this issue, and no real-world dataset exists to support the development of detection tools. This work introduces LazyReview, a dataset of peer-review sentences annotated with fine-grained lazy thinking categories. Our analysis reveals that Large Language Models (LLMs) struggle to detect these instances in a zero-shot setting. However, instruction-based fine-tuning on our dataset significantly boosts performance by 10-20 performance points, highlighting the importance of high-quality training data. Furthermore, a controlled experiment demonstrates that reviews revised with *lazy thinking* feedback are more comprehensive and actionable than those written without such feedback. We will release our dataset and the enhanced guidelines that can be used to train junior reviewers in the community.
