@@ -22,20 +22,8 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
-## Setup and WorkFlow
-For running the experiments, one needs to install necessary packages that we provide in the ``requirements.txt`` file as below:
->
-```bash
-$ conda create -n lazyreview python=3.10
-$ conda activate lazyreview
-$ pip install -r requirements.txt
-```
-
->
->
-
 ## Data download
-One needs to first download the data for these experiments available in this [link](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4613) and put that within the   ```dataset``` folder. The directory has the following structure:
+📂 <mark>One needs to first download the data for these experiments available in this [link](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4613) and put that within the   ```dataset``` folder</mark>. The directory has the following structure:
 ```
 ├── instruction_tuned
 │   ├── coarse_grained
@@ -54,6 +42,21 @@ One needs to first download the data for these experiments available in this [li
     └── Round3_data.tsv
 ```
 To reproduce our zero-shot experiments in RQ1 and RQ2 from sec 3 of our paper, use the roundwise data in the folder ```zero_shot```. To perfrom instruction tuning with only ```LazyReview``` data, use the data contained in the folder ```instruction_tuned``` (**coarse_grained**, **fine_grained**). The extension ```with_eg``` for the files (e.g., ```lazy_thinking_coarse_grained_test_with_eg.jsonl```) specifies the setup where we donot use the review but only the target segment to do the prediction. 
+
+
+
+
+## Setup and WorkFlow
+For running the experiments, one needs to install necessary packages that we provide in the ``requirements.txt`` file as below:
+>
+```bash
+$ conda create -n lazyreview python=3.10
+$ conda activate lazyreview
+$ pip install -r requirements.txt
+```
+
+>
+>
 
 ## Zero-Shot Experiments
 For inference, here's an example that uses LLaMa 7B-chat for the fine-grained evaluation:
