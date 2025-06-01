@@ -6,7 +6,7 @@
 >
 > Peer review is a cornerstone of quality control in scientific publishing. With the increasing workload, the unintended use of `quick' heuristics, referred to as *lazy thinking*, has emerged as a recurring issue compromising review quality. Automated methods to detect such heuristics can help improve the peer-reviewing process. However, there is limited NLP research on this issue, and no real-world dataset exists to support the development of detection tools. This work introduces LazyReview, a dataset of peer-review sentences annotated with fine-grained lazy thinking categories. Our analysis reveals that Large Language Models (LLMs) struggle to detect these instances in a zero-shot setting. However, instruction-based fine-tuning on our dataset significantly boosts performance by 10-20 performance points, highlighting the importance of high-quality training data. Furthermore, a controlled experiment demonstrates that reviews revised with *lazy thinking* feedback are more comprehensive and actionable than those written without such feedback. We will release our dataset and the enhanced guidelines that can be used to train junior reviewers in the community.
 >
-The repository contains codes to reproduce the zero-shot experiments for the paper along with instruction-tuning LLMs on our newly released dataset, ```LazyReview```. We support chat versions of the LLaMa, Gemma, Qwen, Yi, Mistral and SciTulu family of models.
+The repository contains codes to reproduce the zero-shot along with instruction-tuning LLM-based experiments for our ACL 2025 paper on our newly released dataset, ```LazyReview```. We support chat versions of the LLaMa, Gemma, Qwen, Yi, Mistral and SciTulu family of models.
 
 <p align="center">
 <img src="assets/logo.png" width="500">
