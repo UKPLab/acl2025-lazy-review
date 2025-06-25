@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+    <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+    <meta property="og:url" content="https://ukplab.github.io/acl2025-lazy-review"/>
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="impact_summaries_icon.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>LazyReview: A Dataset for uncovering lazy thinking in NLP Peer Reviews</title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h2 class="title is-2 publication-title"><br>LazyReview: A Dataset for uncovering lazy thinking in NLP Peer Reviews</h2>
+                    <div class="is-size-5 publication-authors">
+                        <!-- Paper authors -->
+                        <span class="author-block">
+                <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/ukp_home_content_staff_1_details_123840.en.jsp" target="_blank">Sukannya Purkayastha</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                  <a href="https://zhuang-li.github.io/" target="_blank">Zhuang Li</a><sup>2</sup>,</span>
+                        <span class="author-block">
+                            <a href="https://anne-lauscher.de/" target="_blank">Anne Lauscher</a><sup>3</sup>,</span>
+                        <span class="author-block">
+                                            <span class="author-block">
+                            <a href="https://research.monash.edu/en/persons/lizhen-qu" target="_blank">Lizhen Qu</a><sup>4</sup>,</span>
+                        <span class="author-block">
+                    <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp" target="_blank">Iryna Gurevych</a><sup>1</sup>
+                        </span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">UKP Lab, TU Darmstadt<sup>1</sup> RMIT, Melbourne<sup>2</sup> University of Hamburg<sup>3</sup>Monash University, Australia<sup>4</sup><br>2025</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- Arxiv PDF link -->
+                            <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2504.11042" target="_blank"
+                           class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                            <!-- Github link -->
+                            <span class="link-block">
+                    <a href="https://github.com/UKPLab/acl2025-lazy-review/tree/main" target="_blank"
+                       class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                            <!-- ArXiv abstract Link -->
+                            <span class="link-block">
+                  <a href="https://arxiv.org/abs/2504.11042" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+                             <!-- Slides link -->
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h3 class="title is-3">Abstract</h3>
+                <div class="content has-text-justified">
+                    <p>
+                        Peer review is a cornerstone of quality control
+in scientific publishing. With the increasing
+workload, the unintended use of ‘quick’ heuristics, referred to as lazy thinking, has emerged
+as a recurring issue compromising review quality. Automated methods to detect such heuristics can help improve the peer-reviewing process. However, there is limited NLP research
+on this issue, and no real-world dataset exists
+to support the development of detection tools.
+This work introduces LAZYREVIEW, a dataset
+of peer-review sentences annotated with finegrained lazy thinking categories. Our analysis
+reveals that Large Language Models (LLMs)
+struggle to detect these instances in a zeroshot setting. However, instruction-based finetuning on our dataset significantly boosts performance by 10-20 performance points, highlighting the importance of high-quality training data. Furthermore, a controlled experiment demonstrates that reviews revised with
+lazy thinking feedback are more comprehensive and actionable than those written without
+such feedback. We will release our dataset and
+the enhanced guidelines that can be used to
+train junior reviewers in the community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End paper abstract -->
+<section class="section">
+    <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-left mb-6">
+            Motivation
+        </h3>
+        <div class="columns has-text-left">
+            <div class="column is-half column-padding has-text-left">
+                <div class="content">
+                    <p>
+<img src="static/images/logo.png" alt="Distribution of classes in our dataset">
+<ul>
+<li>Peer review is vital for evaluating scientific work, but increasing workloads often lead reviewers to rely on mental shortcuts. </li>
+<li>    The figure shows a reviewer dismissing a paper as not an “eye-opener” without citing prior work or offering constructive feedback. This is defined as "lazy thinking".
+<li>As per ACL 2023 report, 24.3% of author-reported issues pertained to lazy thinking.
+</div>
+</section>
+<!-- Intro -->
+<section class="section">
+    <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-left mb-6">
+            Contributions
+        </h3>
+        <div class="columns has-text-left">
+            <div class="column is-half column-padding has-text-left">
+                <div class="content">
+                    <p>
+                        <ul style="font-family: Arial, sans-serif; line-height: 1.6; font-size: 16px;">
+  <li style="color: #1f4e79;">
+    📊 We introduce <strong>LazyReview</strong>: A novel dataset comprising 500 expert-annotated and 1,276 silver-annotated review segments, categorized into fine-grained lazy thinking classes.
+  </li>
+    <li style="color: #1f7945;"> We introduce two novel tasks: Coarse-grained lazy thinking detection (lazy or not lazy) and Fine-grained lazy thinking detection (e.g., results are not novel)
+  </li>
+  <li style="color: #ce1782;"> We show that the lazy thinking annotations drastically improve review writing by a significant margin.
+  </li>
+
+</ul>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-left mb-6">
+            Dataset Analysis
+        </h3>
+        <div class="columns has-text-left">
+            <div class="column is-half column-padding has-text-left">
+                <div class="content">
+                    <p>
+Out of the 18 classes of lazy thinking, the class corresponding to <strong> "The authors could also do extra experiment X" </strong> is the highest! This is an obvious finding given the growing pace of the field and the gradual evolution of NLP into ML.
+
+<img src="static/images/label_dist.png" alt="Distribution of classes in our dataset">
+    </div>
+</section>
+<section class="section">
+    <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-left mb-6">
+            Findings
+        </h3>
+        <div class="columns has-text-left">
+            <div class="column is-half column-padding has-text-left">
+                <div class="content">
+                    <p>
+<li>LLMs are good at detecting coarse-grained lazy thinking but underperform for fine-grained detection!
+
+
+<img src="static/images/comp.png" alt="Comparison of LLMs on the two tasks" width="" height="200"> </li>
+
+<li> Reviews rewritten with lazy thinking signals (Lazy re-written) has higher win rate against Original reviews in terms of Constructiveness (Constr.), Justification (Justi.) and Adherence (Adh.)  ! 
+    <img src="static/images/human_eval.png" alt="Human evaluation of rewritten reviews in terms of Constructiveness (Const.), Justification (Justi.), Adherence (Adh.)">
+</li>
+</div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <h3 class="title is-3 has-text-left mb-6">
+            Bibtex
+        </h3>
+        <div class="columns has-text-left">
+            <div class="column is-half column-padding has-text-left">
+                <div class="content">
+                    <p>
+                      <pre><code>@misc{purkayastha2025lazyreviewdatasetuncoveringlazy,
+      title={LazyReview A Dataset for Uncovering Lazy Thinking in NLP Peer Reviews}, 
+      author={Sukannya Purkayastha and Zhuang Li and Anne Lauscher and Lizhen Qu and Iryna Gurevych},
+      year={2025},
+      eprint={2504.11042},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.11042}, 
+}</code></pre>
+
+</div>
+</section>
+
+<!-- End intro -->
+
+
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+
+                    <p>
+                        This page was built using the <a
+                            href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic
+                        Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io"
+                                                                                target="_blank">Nerfies</a> project
+                        page.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
