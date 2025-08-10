@@ -160,13 +160,26 @@ done
 ## Citation
 
 ```bib
-@misc{purkayastha2025lazyreviewdatasetuncoveringlazy,
-      title={LazyReview A Dataset for Uncovering Lazy Thinking in NLP Peer Reviews}, 
-      author={Sukannya Purkayastha and Zhuang Li and Anne Lauscher and Lizhen Qu and Iryna Gurevych},
-      year={2025},
-      eprint={2504.11042},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.11042}, 
+@inproceedings{purkayastha-etal-2025-lazyreview,
+    title = "{L}azy{R}eview: A Dataset for Uncovering Lazy Thinking in {NLP} Peer Reviews",
+    author = "Purkayastha, Sukannya  and
+      Li, Zhuang  and
+      Lauscher, Anne  and
+      Qu, Lizhen  and
+      Gurevych, Iryna",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.165/",
+    doi = "10.18653/v1/2025.acl-long.165",
+    pages = "3280--3308",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Peer review is a cornerstone of quality control in scientific publishing. With the increasing workload, the unintended use of `quick' heuristics, referred to as \textit{lazy thinking}, has emerged as a recurring issue compromising review quality. Automated methods to detect such heuristics can help improve the peer-reviewing process. However, there is limited NLP research on this issue, and no real-world dataset exists to support the development of detection tools. This work introduces $\textsc{LazyReview}$, a dataset of peer-review sentences annotated with fine-grained \textit{lazy thinking} categories. Our analysis reveals that Large Language Models (LLMs) struggle to detect these instances in a zero-shot setting. However, instruction-based fine-tuning on our dataset significantly boosts performance by 10-20 performance points, highlighting the importance of high-quality training data. Furthermore, a controlled experiment demonstrates that reviews revised with \textit{lazy thinking} feedback are more comprehensive and actionable than those written without such feedback. We will release our dataset and the enhanced guidelines that can be used to train junior reviewers in the community."
 }
 ```
